@@ -29,7 +29,7 @@ CX, CY = 320.0, 240.0   # Principal point (image center)
 
 # Depth filtering - only consider points within this range
 MIN_DEPTH = 0.1  # meters
-MAX_DEPTH = 1.5  # meters (adjust if cuboid is further away)
+MAX_DEPTH = 3  # meters (adjust if cuboid is further away)
 # Change in MAX_DEPTH will affect the area calculated as it will affect the number of points considered by the RANSAC
 
 # RANSAC parameters
